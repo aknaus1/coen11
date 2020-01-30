@@ -411,7 +411,7 @@ int main(int arg, char *argu[]){
 		wait_list[i].tail=NULL;
 	}
 	if(arg!=4){
-		printf("ERROR: NOT ENEOUGH ARGUMENTS");
+		printf("ERROR: NOT ENEOUGH ARGUMENTS\n");
 		return 0;
 	}
 	key=atoi(argu[3]);
